@@ -1,76 +1,103 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" width="1000" height="300" role="img" aria-label="Andrin Godson - retro CRT terminal banner">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" width="1000" height="300" role="img" aria-label="Andrin Godson - software that runs on your machine, not someone else's">
   <defs>
-    <linearGradient id="bezel" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#35332e"/>
-      <stop offset="0.5" stop-color="#1e1d1a"/>
-      <stop offset="1" stop-color="#0e0d0c"/>
-    </linearGradient>
-    <linearGradient id="screen" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#0d1108"/>
-      <stop offset="1" stop-color="#05070a"/>
-    </linearGradient>
-    <radialGradient id="vignette" cx="50%" cy="48%" r="72%">
-      <stop offset="50%" stop-color="#000000" stop-opacity="0"/>
-      <stop offset="100%" stop-color="#000000" stop-opacity="0.62"/>
-    </radialGradient>
-    <radialGradient id="bloom" cx="50%" cy="45%" r="60%">
-      <stop offset="0%" stop-color="#ffb000" stop-opacity="0.10"/>
+    <pattern id="sl" width="3" height="3" patternUnits="userSpaceOnUse">
+      <rect width="3" height="1" fill="#ffffff" opacity="0.035"/>
+    </pattern>
+    <radialGradient id="bloom" cx="50%" cy="45%" r="62%">
+      <stop offset="0%" stop-color="#ffb000" stop-opacity="0.09"/>
       <stop offset="100%" stop-color="#ffb000" stop-opacity="0"/>
     </radialGradient>
-    <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse">
-      <rect width="4" height="2" fill="#000000" opacity="0.26"/>
-    </pattern>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffb000"/><stop offset="1" stop-color="#ffd980"/>
+    </linearGradient>
     <filter id="glow" x="-25%" y="-50%" width="150%" height="200%">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-    <filter id="softglow" x="-25%" y="-60%" width="150%" height="220%">
-      <feGaussianBlur stdDeviation="1.4" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
+    <filter id="soft" x="-25%" y="-60%" width="150%" height="220%">
+      <feGaussianBlur stdDeviation="1.4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-    <clipPath id="screenClip">
-      <rect x="22" y="20" width="956" height="228" rx="16"/>
+    <clipPath id="typeClip">
+      <rect x="50" y="166" width="0" height="30">
+        <animate attributeName="width" from="0" to="585" begin="2.25s" dur="1.15s"
+                 calcMode="spline" keySplines=".2 0 .3 1" fill="freeze"/>
+      </rect>
     </clipPath>
   </defs>
 
-  <rect width="1000" height="300" rx="22" fill="url(#bezel)"/>
-  <rect x="22" y="20" width="956" height="228" rx="16" fill="url(#screen)"/>
+  <!-- OLED: pure black, no bezel grey -->
+  <rect width="1000" height="300" fill="#000000"/>
+  <rect x="1" y="1" width="998" height="298" rx="12" fill="#000000"
+        stroke="#ffb000" stroke-opacity="0.30" stroke-width="1.5"/>
 
-  <g clip-path="url(#screenClip)">
-    <rect x="22" y="20" width="956" height="228" fill="url(#bloom)"/>
+  <!-- screen contents fade up once the tube warms -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="0.38s" dur="0.45s"
+             calcMode="spline" keySplines=".4 0 .2 1" fill="freeze"/>
+    <rect x="2" y="2" width="996" height="296" rx="12" fill="url(#bloom)"/>
 
-    <text x="56" y="66" font-family="'Courier New',Courier,monospace" font-size="15" fill="#6f8f4a" letter-spacing="2">C:\&gt; RUN ANDRIN.EXE</text>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="0.55s" dur="0.35s" fill="freeze"/>
+      <text x="56" y="62" font-family="'Courier New',Courier,monospace" font-size="15"
+            fill="#6f8f4a" letter-spacing="2">C:\&gt; RUN ANDRIN.EXE</text>
+    </g>
 
-    <text x="54" y="146" font-family="'Courier New',Courier,monospace" font-size="58" font-weight="bold" fill="#ffb000" letter-spacing="7" filter="url(#glow)">ANDRIN GODSON</text>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="0.85s" dur="0.6s"
+               calcMode="spline" keySplines=".2 0 .2 1" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" from="0 12" to="0 0"
+                        begin="0.85s" dur="0.7s" calcMode="spline" keySplines=".2 0 .2 1" fill="freeze"/>
+      <text x="54" y="140" font-family="'Courier New',Courier,monospace" font-size="58"
+            font-weight="bold" fill="#ffb000" letter-spacing="7" filter="url(#glow)">ANDRIN GODSON</text>
+    </g>
 
-    <text x="57" y="186" font-family="'Courier New',Courier,monospace" font-size="17" fill="#9fd45a" letter-spacing="0.6" filter="url(#softglow)">&gt; software that runs on your machine, not someone else's</text>
-    <rect x="620" y="172" width="11" height="19" fill="#9fd45a">
-      <animate attributeName="opacity" values="1;1;0;0" dur="1.06s" repeatCount="indefinite"/>
+    <!-- loading bar: fills, then retires once the line has typed -->
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.18;0.78;1"
+               begin="1.15s" dur="1.6s" fill="freeze"/>
+      <rect x="56" y="176" width="888" height="5" rx="2.5" fill="#ffb000" fill-opacity="0.13"/>
+      <rect x="56" y="176" width="0" height="5" rx="2.5" fill="url(#bar)">
+        <animate attributeName="width" from="0" to="888" begin="1.25s" dur="1.0s"
+                 calcMode="spline" keySplines=".25 .1 .25 1" fill="freeze"/>
+      </rect>
+    </g>
+
+    <!-- subtitle types itself in behind a moving clip -->
+    <g clip-path="url(#typeClip)">
+      <text x="57" y="188" font-family="'Courier New',Courier,monospace" font-size="17"
+            fill="#9fd45a" letter-spacing="0.6" filter="url(#soft)">&gt; software that runs on your machine, not someone else's</text>
+    </g>
+    <rect x="57" y="174" width="11" height="19" fill="#9fd45a" opacity="0">
+      <animate attributeName="x" from="57" to="620" begin="2.25s" dur="1.15s"
+               calcMode="spline" keySplines=".2 0 .3 1" fill="freeze"/>
+      <animate attributeName="opacity" from="0" to="1" begin="2.25s" dur="0.08s" fill="freeze"/>
+      <animate attributeName="opacity" values="1;1;0;0" dur="1.05s" begin="3.5s" repeatCount="indefinite"/>
     </rect>
 
-    <line x1="56" y1="208" x2="944" y2="208" stroke="#ffb000" stroke-opacity="0.22" stroke-width="1"/>
-    <text x="56" y="230" font-family="'Courier New',Courier,monospace" font-size="13" fill="#c98f2a" letter-spacing="1.6">LOC: INDIA</text>
-    <text x="250" y="230" font-family="'Courier New',Courier,monospace" font-size="13" fill="#c98f2a" letter-spacing="1.6">MODE: BUILD</text>
-    <text x="470" y="230" font-family="'Courier New',Courier,monospace" font-size="13" fill="#c98f2a" letter-spacing="1.6">DEPLOYS: 4 ONLINE</text>
-    <text x="770" y="230" font-family="'Courier New',Courier,monospace" font-size="13" fill="#7fd07f" letter-spacing="1.6">STATUS: READY</text>
-
-    <rect x="22" y="20" width="956" height="228" fill="url(#scanlines)"/>
-    <rect x="22" y="20" width="956" height="228" fill="url(#vignette)"/>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="3.45s" dur="0.5s"
+               calcMode="spline" keySplines=".4 0 .2 1" fill="freeze"/>
+      <line x1="56" y1="214" x2="944" y2="214" stroke="#ffb000" stroke-opacity="0.22" stroke-width="1"/>
+      <text x="56" y="240" font-family="'Courier New',Courier,monospace" font-size="13" fill="#c98f2a" letter-spacing="1.6">LOC: INDIA</text>
+      <text x="250" y="240" font-family="'Courier New',Courier,monospace" font-size="13" fill="#c98f2a" letter-spacing="1.6">MODE: BUILD</text>
+      <text x="470" y="240" font-family="'Courier New',Courier,monospace" font-size="13" fill="#c98f2a" letter-spacing="1.6">DEPLOYS: 4 ONLINE</text>
+      <text x="770" y="240" font-family="'Courier New',Courier,monospace" font-size="13" fill="#7fd07f" letter-spacing="1.6">STATUS: READY</text>
+      <circle cx="932" cy="236" r="5" fill="#7fd07f">
+        <animate attributeName="opacity" values="1;0.3;1" dur="2.6s" repeatCount="indefinite"/>
+      </circle>
+    </g>
   </g>
 
-  <rect x="22" y="20" width="956" height="228" rx="16" fill="none" stroke="#000000" stroke-opacity="0.85" stroke-width="2"/>
-  <rect x="14" y="12" width="972" height="244" rx="20" fill="none" stroke="#4a463d" stroke-opacity="0.6" stroke-width="1.5"/>
+  <!-- CRT power-on: bright line snaps open to full height, then burns off -->
+  <rect x="2" y="148" width="996" height="4" fill="#ffffff" opacity="0.92">
+    <animate attributeName="y" from="148" to="2" begin="0s" dur="0.38s"
+             calcMode="spline" keySplines=".15 .7 .3 1" fill="freeze"/>
+    <animate attributeName="height" from="4" to="296" begin="0s" dur="0.38s"
+             calcMode="spline" keySplines=".15 .7 .3 1" fill="freeze"/>
+    <animate attributeName="opacity" values="0.92;0.55;0" keyTimes="0;0.55;1"
+             begin="0s" dur="0.62s" fill="freeze"/>
+  </rect>
 
-  <circle cx="60" cy="276" r="6" fill="#7fd07f">
-    <animate attributeName="opacity" values="1;0.35;1" dur="2.6s" repeatCount="indefinite"/>
-  </circle>
-  <text x="78" y="281" font-family="'Courier New',Courier,monospace" font-size="12" fill="#6b675c" letter-spacing="2.4">PWR</text>
-  <text x="836" y="281" font-family="'Courier New',Courier,monospace" font-size="12" fill="#6b675c" letter-spacing="2.4">MODEL GX-2026</text>
+  <rect width="1000" height="300" fill="url(#sl)"/>
 </svg>

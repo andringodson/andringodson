@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 360" width="1000" height="360" role="img" aria-label="Boot sequence: POST OK, privacy mode enabled, 4 deployments online">
+<defs>
+<pattern id="sl" width="3" height="3" patternUnits="userSpaceOnUse"><rect width="3" height="1" fill="#ffffff" opacity="0.035"/></pattern>
+<filter id="g" x="-30%" y="-60%" width="160%" height="220%"><feGaussianBlur stdDeviation="1.7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<linearGradient id="bar" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ffb000"/><stop offset="1" stop-color="#ffd980"/></linearGradient>
+</defs>
+<rect width="1000" height="360" fill="#000000"/>
+<rect x="1" y="1" width="998" height="358" rx="10" fill="#000000" stroke="#ffb000" stroke-opacity="0.30" stroke-width="1.5"/>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0.0000;0.0389;0.0700;0.9278;1.0000" dur="9.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;.4 0 .2 1;0 0 1 1;.4 0 .2 1"/>
+<text x="62" y="62" font-family="'Courier New',Courier,monospace" font-size="17" fill="#ffb000" letter-spacing="1.2" filter="url(#g)">ANDRIN GODSON // SYSTEM 0x01</text>
+<text x="938" y="62" text-anchor="end" font-family="'Courier New',Courier,monospace" font-size="17" fill="#c98f2a" letter-spacing="1.2">LOC: INDIA</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0.0000;0.0611;0.0922;0.9278;1.0000" dur="9.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;.4 0 .2 1;0 0 1 1;.4 0 .2 1"/>
+<line x1="62" y1="82" x2="938" y2="82" stroke="#ffb000" stroke-opacity="0.35" stroke-width="1"/>
+</g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0.0000;0.1056;0.1367;0.9278;1.0000" dur="9.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;.4 0 .2 1;0 0 1 1;.4 0 .2 1"/>
+<text x="62" y="128" font-family="'Courier New',Courier,monospace" font-size="17" fill="#e8c170" xml:space="preserve">POST .......................................</text>
+<text x="620" y="128" font-family="'Courier New',Courier,monospace" font-size="17" fill="#7fd07f" letter-spacing="0.8" filter="url(#g)">OK</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0.0000;0.1722;0.2033;0.9278;1.0000" dur="9.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;.4 0 .2 1;0 0 1 1;.4 0 .2 1"/>
+<text x="62" y="162" font-family="'Courier New',Courier,monospace" font-size="17" fill="#e8c170" xml:space="preserve">MEMORY CHECK ...............................</text>
+<text x="620" y="162" font-family="'Courier New',Courier,monospace" font-size="17" fill="#7fd07f" letter-spacing="0.8" filter="url(#g)">640K OK</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0.0000;0.2389;0.2700;0.9278;1.0000" dur="9.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;.4 0 .2 1;0 0 1 1;.4 0 .2 1"/>
+<text x="62" y="196" font-family="'Courier New',Courier,monospace" font-size="17" fill="#e8c170" xml:space="preserve">LOADING PROFILE ............................</text>
+<text x="620" y="196" font-family="'Courier New',Courier,monospace" font-size="17" fill="#7fd07f" letter-spacing="0.8" filter="url(#g)">DONE</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0.0000;0.3056;0.3367;0.9278;1.0000" dur="9.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;.4 0 .2 1;0 0 1 1;.4 0 .2 1"/>
+<text x="62" y="230" font-family="'Courier New',Courier,monospace" font-size="17" fill="#e8c170" xml:space="preserve">PRIVACY MODE ...............................</text>
+<text x="620" y="230" font-family="'Courier New',Courier,monospace" font-size="17" fill="#ffb000" letter-spacing="0.8" filter="url(#g)">ENABLED</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0.0000;0.3722;0.4033;0.9278;1.0000" dur="9.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;.4 0 .2 1;0 0 1 1;.4 0 .2 1"/>
+<text x="62" y="264" font-family="'Courier New',Courier,monospace" font-size="17" fill="#e8c170" xml:space="preserve">LIVE DEPLOYMENTS ...........................</text>
+<text x="620" y="264" font-family="'Courier New',Courier,monospace" font-size="17" fill="#7fd07f" letter-spacing="0.8" filter="url(#g)">4 ONLINE</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0.0000;0.1056;0.1367;0.9278;1.0000" dur="9.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;.4 0 .2 1;0 0 1 1;.4 0 .2 1"/>
+<rect x="62" y="312" width="876" height="6" rx="3" fill="#ffb000" fill-opacity="0.13"/>
+<rect x="62" y="312" width="0" height="6" rx="3" fill="url(#bar)">
+<animate attributeName="width" values="0;0;876;876;876" keyTimes="0;0.1056;0.4500;0.9278;1" dur="9.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;.25 .1 .25 1;0 0 1 1;0 0 1 1"/>
+</rect>
+</g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0.0000;0.4833;0.5144;0.9278;1.0000" dur="9.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;.4 0 .2 1;0 0 1 1;.4 0 .2 1"/>
+<text x="62" y="368" font-family="'Courier New',Courier,monospace" font-size="19" fill="#7fd07f" letter-spacing="1.6" filter="url(#g)">READY.</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0.0000;0.5278;0.5589;0.9278;1.0000" dur="9.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;.4 0 .2 1;0 0 1 1;.4 0 .2 1"/>
+<rect x="62" y="384" width="12" height="21" fill="#7fd07f"><animate attributeName="opacity" values="1;1;0;0" dur="1.05s" repeatCount="indefinite"/></rect>
+</g>
+<rect width="1000" height="360" fill="url(#sl)"/>
+</svg>
