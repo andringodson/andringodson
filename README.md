@@ -1,10 +1,10 @@
 <div align="center">
 
-<img src="./assets/banner.svg" alt="Andrin Godson — software that runs on your machine, not someone else's" width="100%">
+<img src="./assets/banner.svg?v=3" alt="Andrin Godson — software that runs on your machine, not someone else's" width="100%">
 
 `INDIA` · `SHIPS ON THE EDGE` · `PRIVACY BY DEFAULT` · `SOURCE PRIVATE`
 
-<img src="./assets/boot.svg" alt="Boot sequence: POST OK, privacy enabled, source locked, 4 deployments online" width="100%">
+<img src="./assets/boot.svg?v=3" alt="Boot sequence: POST OK, privacy enabled, source locked, 4 deployments online" width="100%">
 
 </div>
 
@@ -19,7 +19,7 @@ your browser right now, no account required.
 
 <div align="center">
 
-<img src="./assets/live.svg" alt="Live deployments: 4 results" width="100%">
+<img src="./assets/live.svg?v=3" alt="Live deployments: 4 results" width="100%">
 
 </div>
 
@@ -32,7 +32,7 @@ your browser right now, no account required.
 
 <div align="center">
 
-<img src="./assets/lab.svg" alt="Private lab: Auralis, ThreatML, Nexus, Attendance" width="100%">
+<img src="./assets/lab.svg?v=3" alt="Private lab: Auralis, ThreatML, Nexus, Attendance" width="100%">
 
 </div>
 
@@ -50,7 +50,7 @@ your browser right now, no account required.
 ![Vercel](https://img.shields.io/badge/VERCEL-000000?style=flat-square&logo=vercel&logoColor=FF003C)
 ![Actions](https://img.shields.io/badge/ACTIONS-000000?style=flat-square&logo=githubactions&logoColor=FF003C)
 
-<img src="./assets/rules.svg" alt="Principles: client-side first, no account walls, label uncertainty, offline by default" width="100%">
+<img src="./assets/rules.svg?v=3" alt="Principles: client-side first, no account walls, label uncertainty, offline by default" width="100%">
 
 </div>
 
@@ -60,6 +60,6 @@ your browser right now, no account required.
 
 [![GitHub](https://img.shields.io/badge/GITHUB-andringodson-000000?style=flat-square&logo=github&logoColor=00FF41)](https://github.com/andringodson)
 
-<img src="./assets/footer.svg" alt="Thank you for flying ANDRIN.EXE" width="100%">
+<img src="./assets/footer.svg?v=3" alt="Thank you for flying ANDRIN.EXE" width="100%">
 
 </div>
