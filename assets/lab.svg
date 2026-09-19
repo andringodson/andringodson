@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 360" width="1000" height="360" role="img" aria-label="Private lab: Auralis, ThreatML, Nexus, Attendance">
+<defs>
+  <pattern id="sl" width="3" height="3" patternUnits="userSpaceOnUse">
+    <rect width="3" height="1" fill="#ffffff" opacity="0.04"/>
+  </pattern>
+  <filter id="g" x="-30%" y="-60%" width="160%" height="220%">
+    <feGaussianBlur stdDeviation="1.8" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="gg" x="-30%" y="-60%" width="160%" height="220%">
+    <feGaussianBlur stdDeviation="3.4" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <linearGradient id="barg" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#00c853"/><stop offset="1" stop-color="#00ff41"/>
+  </linearGradient>
+  <linearGradient id="sweepg" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#00ff41" stop-opacity="0"/>
+    <stop offset="0.5" stop-color="#00ff41" stop-opacity="0.16"/>
+    <stop offset="1" stop-color="#00ff41" stop-opacity="0"/>
+  </linearGradient>
+  
+</defs>
+<rect width="1000" height="360" fill="#000000"/><rect x="1" y="1" width="998" height="358" rx="10" fill="#000000" stroke="#0d7a2b" stroke-opacity="0.55" stroke-width="1.5"/>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0.0000;0.0300;0.0600;0.9350;1.0000" dur="10.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;.4 0 .2 1;0 0 1 1;.4 0 .2 1"/><text x="62" y="60" font-family="'Courier New',Courier,monospace" font-size="18" fill="#00ff41" letter-spacing="1.2" filter="url(#g)">A:\LAB&gt; dir</text><text x="938" y="60" text-anchor="end" font-family="'Courier New',Courier,monospace" font-size="15" fill="#ff003c" letter-spacing="1.6">[ SOURCE: PRIVATE ]</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0.0000;0.0500;0.0800;0.9350;1.0000" dur="10.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;.4 0 .2 1;0 0 1 1;.4 0 .2 1"/><line x1="62" y1="80" x2="938" y2="80" stroke="#0d7a2b" stroke-opacity="0.65" stroke-width="1"/></g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0.0000;0.0850;0.1150;0.9350;1.0000" dur="10.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;.4 0 .2 1;0 0 1 1;.4 0 .2 1"/><text x="62" y="128" font-family="'Courier New',Courier,monospace" font-size="17" fill="#00ff41" letter-spacing="0.8">AURALIS.EXE</text><line x1="330" y1="123" x2="800" y2="123" stroke="#0d7a2b" stroke-opacity="0.75" stroke-width="1.6" stroke-dasharray="1.5 7" stroke-linecap="round"/><text x="820" y="128" font-family="'Courier New',Courier,monospace" font-size="15" fill="#a8002a">[TS]</text><text x="62" y="150" font-family="'Courier New',Courier,monospace" font-size="13.5" fill="#0d7a2b">Multilingual code-switching voice assistant for Indian public services.</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0.0000;0.1550;0.1850;0.9350;1.0000" dur="10.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;.4 0 .2 1;0 0 1 1;.4 0 .2 1"/><text x="62" y="186" font-family="'Courier New',Courier,monospace" font-size="17" fill="#00ff41" letter-spacing="0.8">THREATML.EXE</text><line x1="330" y1="181" x2="800" y2="181" stroke="#0d7a2b" stroke-opacity="0.75" stroke-width="1.6" stroke-dasharray="1.5 7" stroke-linecap="round"/><text x="820" y="186" font-family="'Courier New',Courier,monospace" font-size="15" fill="#a8002a">[PY]</text><text x="62" y="208" font-family="'Courier New',Courier,monospace" font-size="13.5" fill="#0d7a2b">Machine-learning model that analyses network data traffic.</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0.0000;0.2250;0.2550;0.9350;1.0000" dur="10.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;.4 0 .2 1;0 0 1 1;.4 0 .2 1"/><text x="62" y="244" font-family="'Courier New',Courier,monospace" font-size="17" fill="#00ff41" letter-spacing="0.8">NEXUS.EXE</text><line x1="330" y1="239" x2="800" y2="239" stroke="#0d7a2b" stroke-opacity="0.75" stroke-width="1.6" stroke-dasharray="1.5 7" stroke-linecap="round"/><text x="820" y="244" font-family="'Courier New',Courier,monospace" font-size="15" fill="#a8002a">[JS]</text><text x="62" y="266" font-family="'Courier New',Courier,monospace" font-size="13.5" fill="#0d7a2b">The Analyser.</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0.0000;0.2950;0.3250;0.9350;1.0000" dur="10.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;.4 0 .2 1;0 0 1 1;.4 0 .2 1"/><text x="62" y="302" font-family="'Courier New',Courier,monospace" font-size="17" fill="#00ff41" letter-spacing="0.8">ATTEND.EXE</text><line x1="330" y1="297" x2="800" y2="297" stroke="#0d7a2b" stroke-opacity="0.75" stroke-width="1.6" stroke-dasharray="1.5 7" stroke-linecap="round"/><text x="820" y="302" font-family="'Courier New',Courier,monospace" font-size="15" fill="#a8002a">[JS]</text><text x="62" y="324" font-family="'Courier New',Courier,monospace" font-size="13.5" fill="#0d7a2b">Attendance management system.</text></g>
+<rect x="2" y="0" width="996" height="46" fill="url(#sweepg)"><animate attributeName="y" values="-46;360" dur="10.0s" begin="0.6s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1"/></rect>
+<rect width="1000" height="360" fill="url(#sl)"/>
+</svg>

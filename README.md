@@ -1,36 +1,27 @@
 <div align="center">
 
-<img src="./assets/banner.svg" alt="Andrin Godson" width="100%">
+<img src="./assets/banner.svg" alt="Andrin Godson — software that runs on your machine, not someone else's" width="100%">
 
-<br>
+`INDIA` · `SHIPS ON THE EDGE` · `PRIVACY BY DEFAULT` · `SOURCE PRIVATE`
 
-`INDIA` · `BUILDS IN THE OPEN, SHIPS ON THE EDGE` · `PRIVACY BY DEFAULT`
-
-</div>
-
----
-
-<div align="center">
-
-<img src="./assets/boot.svg" alt="Boot sequence: POST OK, privacy mode enabled, 4 deployments online" width="100%">
+<img src="./assets/boot.svg" alt="Boot sequence: POST OK, privacy enabled, source locked, 4 deployments online" width="100%">
 
 </div>
 
 ## `>` WHOAMI
 
-I build tools that do the work **on your device** — not on a server that
-logs it. Browser-side image and PDF pipelines, on-device semantic search,
-epidemic models you can actually audit. If it can run locally, it should.
+I build tools that do the work **on your device** — not on a server that logs it.
+Browser-side image and PDF pipelines, on-device semantic search, epidemic models
+you can actually audit. If it can run locally, it should.
 
-Most of my source is private. The work itself is not — every project below
-is live and open in your browser right now, no account required.
+The source is private. The work is not — everything below is live and open in
+your browser right now, no account required.
 
-## `>` DIR /LIVE
+<div align="center">
 
-```
-Volume in drive A is PROJECTS
-Directory of A:\LIVE
-```
+<img src="./assets/live.svg" alt="Live deployments: 4 results" width="100%">
+
+</div>
 
 | | PROJECT | WHAT IT DOES | STACK |
 |:-:|:--|:--|:--|
@@ -39,57 +30,36 @@ Directory of A:\LIVE
 | `[>]` | **[RAPHAVISION](https://raphavision.vercel.app)** | Epidemic intelligence — SIR · SEIR · SEIRD · SEIRDV models, live surveillance, WIS-validated forecasting with per-figure uncertainty labelling. | `Python` |
 | `[>]` | **[SDG 17 HUB](https://sdg17-studaifoundery.vercel.app)** | Interactive hub for UN SDG 17 — how partnerships in finance, technology, skills, trade and policy move the needle. All figures in INR. | `TypeScript` |
 
-## `>` DIR /LAB
+<div align="center">
 
-```
-Directory of A:\LAB                                    [SOURCE: PRIVATE]
-```
+<img src="./assets/lab.svg" alt="Private lab: Auralis, ThreatML, Nexus, Attendance" width="100%">
 
-```
-AURALIS.EXE     Multilingual code-switching voice assistant for Indian
-                public services. DataForge 2026, Rime track.        [TS]
-
-THREATML.EXE    ML model that analyses network data traffic.        [PY]
-
-NEXUS.EXE       The Analyser.                                       [JS]
-
-ATTEND.EXE      Attendance management system.                       [JS]
-```
+</div>
 
 ## `>` STACK
 
-![TypeScript](https://img.shields.io/badge/TYPESCRIPT-1a1a1a?style=flat-square&logo=typescript&logoColor=FFB000)
-![JavaScript](https://img.shields.io/badge/JAVASCRIPT-1a1a1a?style=flat-square&logo=javascript&logoColor=FFB000)
-![Python](https://img.shields.io/badge/PYTHON-1a1a1a?style=flat-square&logo=python&logoColor=FFB000)
-![React](https://img.shields.io/badge/REACT-1a1a1a?style=flat-square&logo=react&logoColor=FFB000)
-![Vite](https://img.shields.io/badge/VITE-1a1a1a?style=flat-square&logo=vite&logoColor=FFB000)
-![Node](https://img.shields.io/badge/NODE-1a1a1a?style=flat-square&logo=nodedotjs&logoColor=FFB000)
-![Docker](https://img.shields.io/badge/DOCKER-1a1a1a?style=flat-square&logo=docker&logoColor=FFB000)
-![Vercel](https://img.shields.io/badge/VERCEL-1a1a1a?style=flat-square&logo=vercel&logoColor=FFB000)
-![GitHub Actions](https://img.shields.io/badge/ACTIONS-1a1a1a?style=flat-square&logo=githubactions&logoColor=FFB000)
+<div align="center">
 
-## `>` PRINCIPLES
+![TypeScript](https://img.shields.io/badge/TYPESCRIPT-000000?style=flat-square&logo=typescript&logoColor=00FF41)
+![JavaScript](https://img.shields.io/badge/JAVASCRIPT-000000?style=flat-square&logo=javascript&logoColor=00FF41)
+![Python](https://img.shields.io/badge/PYTHON-000000?style=flat-square&logo=python&logoColor=00FF41)
+![React](https://img.shields.io/badge/REACT-000000?style=flat-square&logo=react&logoColor=00FF41)
+![Vite](https://img.shields.io/badge/VITE-000000?style=flat-square&logo=vite&logoColor=00FF41)
+![Node](https://img.shields.io/badge/NODE-000000?style=flat-square&logo=nodedotjs&logoColor=00FF41)
+![Docker](https://img.shields.io/badge/DOCKER-000000?style=flat-square&logo=docker&logoColor=FF003C)
+![Vercel](https://img.shields.io/badge/VERCEL-000000?style=flat-square&logo=vercel&logoColor=FF003C)
+![Actions](https://img.shields.io/badge/ACTIONS-000000?style=flat-square&logo=githubactions&logoColor=FF003C)
 
-```
-01.  If it can run on the client, it runs on the client.
-02.  No account walls. No API keys. No tracking pixels.
-03.  Uncertainty gets labelled, not hidden.
-04.  Offline is a feature, not a fallback.
-```
+<img src="./assets/rules.svg" alt="Principles: client-side first, no account walls, label uncertainty, offline by default" width="100%">
+
+</div>
 
 ## `>` CONNECT
 
-[![GitHub](https://img.shields.io/badge/GITHUB-andringodson-1a1a1a?style=flat-square&logo=github&logoColor=FFB000)](https://github.com/andringodson)
-
 <div align="center">
-<br>
 
-```
-╔══════════════════════════════════════════════════════════════════╗
-║   THANK YOU FOR FLYING ANDRIN.EXE — PRESS ANY KEY TO CONTINUE    ║
-╚══════════════════════════════════════════════════════════════════╝
-```
+[![GitHub](https://img.shields.io/badge/GITHUB-andringodson-000000?style=flat-square&logo=github&logoColor=00FF41)](https://github.com/andringodson)
 
-`(C) 2026 ANDRIN GODSON — NO RIGHTS RESERVED ON CURIOSITY`
+<img src="./assets/footer.svg" alt="Thank you for flying ANDRIN.EXE" width="100%">
 
 </div>

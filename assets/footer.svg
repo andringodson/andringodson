@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 150" width="1000" height="150" role="img" aria-label="Thank you for flying ANDRIN.EXE">
+<defs>
+  <pattern id="sl" width="3" height="3" patternUnits="userSpaceOnUse">
+    <rect width="3" height="1" fill="#ffffff" opacity="0.04"/>
+  </pattern>
+  <filter id="g" x="-30%" y="-60%" width="160%" height="220%">
+    <feGaussianBlur stdDeviation="1.8" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="gg" x="-30%" y="-60%" width="160%" height="220%">
+    <feGaussianBlur stdDeviation="3.4" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <linearGradient id="barg" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#00c853"/><stop offset="1" stop-color="#00ff41"/>
+  </linearGradient>
+  <linearGradient id="sweepg" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#00ff41" stop-opacity="0"/>
+    <stop offset="0.5" stop-color="#00ff41" stop-opacity="0.16"/>
+    <stop offset="1" stop-color="#00ff41" stop-opacity="0"/>
+  </linearGradient>
+  
+</defs>
+<rect width="1000" height="150" fill="#000000"/><rect x="1" y="1" width="998" height="148" rx="10" fill="#000000" stroke="#a8002a" stroke-opacity="0.55" stroke-width="1.5"/>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0.0000;0.0400;0.0700;0.9350;1.0000" dur="10.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;.4 0 .2 1;0 0 1 1;.4 0 .2 1"/><text x="500" y="64" text-anchor="middle" font-family="'Courier New',Courier,monospace" font-size="17" fill="#00ff41" letter-spacing="1.6" filter="url(#g)">THANK YOU FOR FLYING ANDRIN.EXE - PRESS ANY KEY TO CONTINUE<animate attributeName="opacity" values="1;1;0.35;1;1" dur="3.2s" repeatCount="indefinite"/></text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0.0000;0.0900;0.1200;0.9350;1.0000" dur="10.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;.4 0 .2 1;0 0 1 1;.4 0 .2 1"/><text x="500" y="104" text-anchor="middle" font-family="'Courier New',Courier,monospace" font-size="13" fill="#a8002a" letter-spacing="1.8">(C) 2026 ANDRIN GODSON - NO RIGHTS RESERVED ON CURIOSITY</text></g>
+<rect x="2" y="0" width="996" height="46" fill="url(#sweepg)"><animate attributeName="y" values="-46;150" dur="10.0s" begin="1.0s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1"/></rect>
+<rect width="1000" height="150" fill="url(#sl)"/>
+</svg>
